@@ -1,0 +1,56 @@
+{
+  "name": "hugin-pow",
+  "version": "1.0.0",
+  "description": "Proof of work for Hugin messages: jobs, targets, share search and verification, pow.auth signatures, CN-Turtle-Lite v2 mining on kryptokrona-crypto (Node.js, Electron, React Native) or a host backend (Bare)",
+  "license": "MIT",
+  "author": "The Kryptokrona Developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryptokrona/hugin-pow.git"
+  },
+  "keywords": [
+    "hugin",
+    "kryptokrona",
+    "proof-of-work",
+    "cryptonight",
+    "bare"
+  ],
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./job": "./lib/job.js",
+    "./auth": "./lib/auth.js",
+    "./verify": "./lib/verify.js",
+    "./mine": "./lib/mine.js",
+    "./native": "./lib/native.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "brittle test/*.test.js",
+    "test:bare": "bare test/all.js"
+  },
+  "dependencies": {
+    "b4a": "1.9.0",
+    "sodium-universal": "5.0.1"
+  },
+  "peerDependencies": {
+    "kryptokrona-crypto": "^2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "kryptokrona-crypto": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "brittle": "3.19.0"
+  }
+}

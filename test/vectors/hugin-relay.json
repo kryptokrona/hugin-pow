@@ -1,0 +1,332 @@
+{
+  "description": "pow and auth sections of the Hugin relay test vectors (hugin-utils 0.4.0 with the real CN-Turtle-Lite v2 hash; pow.auth signed by keypear with the key pair of seed 32 x 0x07).",
+  "pow": {
+    "job": {
+      "job_id": "job-1",
+      "blob": "0500e0afd2b906030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dc000000005a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a01",
+      "target": "ffffffff"
+    },
+    "nonce": "a1b2c3d4",
+    "nonce_offset": 39,
+    "hashing_blob": "0500e0afd2b906030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dca1b2c3d45a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a01",
+    "result": "21d97a8962e20329b6de9b9293c8db1ca599e053112b800016dd07170d3fd4c6",
+    "verify_share": true,
+    "verify_share_wrong_nonce": false,
+    "prev_id": "030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dc",
+    "short_blob": "040207030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dc00000000",
+    "short_nonce_offset": 35,
+    "short_prev_id": "030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dc",
+    "bad_prev_id": null,
+    "meets_target": [
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000000000000",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffffffffffff",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330100000001000000",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000001000000",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffff00000000",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333336b4a0500a0410600",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333418312b5ae4a1000",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333331b4f1e1c78690000",
+        "target": "ffffffff",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000000000000",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffffffffffff",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330100000001000000",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000001000000",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffff00000000",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333336b4a0500a0410600",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333418312b5ae4a1000",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333331b4f1e1c78690000",
+        "target": "00000080",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000000000000",
+        "target": "01000000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffffffffffff",
+        "target": "01000000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330100000001000000",
+        "target": "01000000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000001000000",
+        "target": "01000000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffff00000000",
+        "target": "01000000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333336b4a0500a0410600",
+        "target": "01000000",
+        "meets": false
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333418312b5ae4a1000",
+        "target": "01000000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333331b4f1e1c78690000",
+        "target": "01000000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000000000000",
+        "target": "e8030000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffffffffffff",
+        "target": "e8030000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330100000001000000",
+        "target": "e8030000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000001000000",
+        "target": "e8030000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffff00000000",
+        "target": "e8030000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333336b4a0500a0410600",
+        "target": "e8030000",
+        "meets": false
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333418312b5ae4a1000",
+        "target": "e8030000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333331b4f1e1c78690000",
+        "target": "e8030000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000000000000",
+        "target": "10270000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffffffffffff",
+        "target": "10270000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330100000001000000",
+        "target": "10270000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000001000000",
+        "target": "10270000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffff00000000",
+        "target": "10270000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333336b4a0500a0410600",
+        "target": "10270000",
+        "meets": false
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333418312b5ae4a1000",
+        "target": "10270000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333331b4f1e1c78690000",
+        "target": "10270000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000000000000",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffffffffffff",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330100000001000000",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000001000000",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffff00000000",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333336b4a0500a0410600",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333418312b5ae4a1000",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333331b4f1e1c78690000",
+        "target": "00000000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000000000000",
+        "target": "ffff0000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffffffffffff",
+        "target": "ffff0000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330100000001000000",
+        "target": "ffff0000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333330000000001000000",
+        "target": "ffff0000",
+        "meets": true
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333ffffffff00000000",
+        "target": "ffff0000",
+        "meets": true
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333336b4a0500a0410600",
+        "target": "ffff0000",
+        "meets": false
+      },
+      {
+        "hash": "333333333333333333333333333333333333333333333333418312b5ae4a1000",
+        "target": "ffff0000",
+        "meets": false
+      },
+      {
+        "hash": "3333333333333333333333333333333333333333333333331b4f1e1c78690000",
+        "target": "ffff0000",
+        "meets": true
+      }
+    ]
+  },
+  "auth": [
+    {
+      "hash": "abababababababababababababababababababababababababababababababab",
+      "timestamp": 1731500000000,
+      "context": "dm:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "payload": "powsig:v2:abababababababababababababababababababababababababababababababab:1731500000000:job-1:a1b2c3d4:21d97a8962e20329b6de9b9293c8db1ca599e053112b800016dd07170d3fd4c6:dm:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "pub": "ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c",
+      "sig": "7a9618105002736eb0df2b3d1597720c354bfd1e7362cfdb80ca7d1e8cfeed524666229f86dbbe571a675b96b9545dbc75b727ecea1a7f77e36372e80e20d60b",
+      "verifies": true
+    },
+    {
+      "hash": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+      "timestamp": 1731500000123,
+      "context": "c0ffee",
+      "payload": "powsig:v2:efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef:1731500000123:job-1:a1b2c3d4:21d97a8962e20329b6de9b9293c8db1ca599e053112b800016dd07170d3fd4c6:c0ffee",
+      "pub": "ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c",
+      "sig": "50406a76766b50ed77420c622e2a4668e9b5931b599e7097d6d68ffd73a3f4edaeed545222e0e252ec8f8f8303e1357347ed370c31b1ed45d60cd3c94b58b501",
+      "verifies": true
+    },
+    {
+      "hash": "0101010101010101010101010101010101010101010101010101010101010101",
+      "timestamp": 42,
+      "context": "",
+      "payload": "powsig:v2:0101010101010101010101010101010101010101010101010101010101010101:42:job-1:a1b2c3d4:21d97a8962e20329b6de9b9293c8db1ca599e053112b800016dd07170d3fd4c6:",
+      "pub": "ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c",
+      "sig": "22d4354f0eee2f3a893941c6cf36d9293c6ce27ee1a1f5684745c81a20a80025c5b499433dcd24c4a610f3633a3edcf1b985dc2b8008a4d126d04e27ce72090e",
+      "verifies": true
+    }
+  ]
+}
